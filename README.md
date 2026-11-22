@@ -5,8 +5,10 @@
 [![reward](https://make.fun/badge/news-image-20261121/BrotherMus/world-news-2026-11-21/reward.svg)](https://make.fun/bounty/news-image-20261121?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
 
 "The World in One Page" for Saturday 21 November 2026: one 1024×1024 front page summing up the day's world news,
-27 stories across seven regions (COP31 overtime in Antalya, 128 nations agreeing to draft "killer robot" rules in
-Geneva, Iran's claim to have downed two US drones over Hormuz, and more).
+36 stories across seven regions, redrawn once the day had ended: COP31 closing its extra day in Antalya with no deal,
+three Houthi missiles shot down over Riyadh, 128 nations agreeing in Geneva to write rules for AI weapons, two strong
+earthquakes ten hours apart, and more. Thirteen stories are drawn, 23 are one-line briefs, and a numbered map shows
+where each happened. A date-check box lists what was left out as Friday's news.
 
 - `src/page.html` — the page, HTML with inline SVG drawings
 - `tools/render.mjs` — renders it to `entry.png` with headless Edge and checks the gate (PNG, ≤1 MiB, ≤1024×1024)
