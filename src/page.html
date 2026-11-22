@@ -35,15 +35,15 @@
   .src { color: #6a6459; font-style: italic; }
 
   /* Leads */
-  .leads { height: 243px; margin-top: 8px; display: flex; gap: 14px; }
+  .leads { height: 234px; margin-top: 8px; display: flex; gap: 14px; }
   .lead { flex: 1; min-width: 0; }
   .lead .pic { height: 118px; }
   .lead .stamp { font-size: 26px; line-height: 32px; padding: 0 8px; }
   .lead .sub { top: 48px; font-size: 14.5px; line-height: 21px; padding: 0 7px; }
   .lead .tag { font-size: 10.5px; line-height: 16px; margin-top: 5px; }
   .lead .n { width: 15px; height: 15px; line-height: 15px; font-size: 10px; }
-  .lead h2 { font-family: Georgia, serif; font-size: 24px; line-height: 26px; height: 52px; overflow: hidden; margin-top: 1px; }
-  .lead p { font-size: 13px; line-height: 16px; margin-top: 2px; color: #26231e; }
+  .lead h2 { font-family: Georgia, serif; font-size: 26px; line-height: 28px; height: 56px; overflow: hidden; margin-top: 1px; }
+  .lead p { font-size: 13.5px; line-height: 17px; margin-top: 2px; color: #26231e; }
 
   /* Tiles */
   .tiles { height: 318px; margin-top: 6px; display: grid; grid-template-columns: repeat(5, 1fr); grid-template-rows: 155px 155px; gap: 8px 10px; }
@@ -56,7 +56,7 @@
   .tile p { font-size: 12px; line-height: 15px; white-space: nowrap; overflow: hidden; color: #26231e; }
 
   /* Map and briefs */
-  .bottom { height: 199px; margin-top: 8px; border-top: 2px solid #14120e; padding-top: 5px; display: flex; gap: 14px; }
+  .bottom { height: 206px; margin-top: 8px; border-top: 2px solid #14120e; padding-top: 5px; display: flex; gap: 14px; }
   .bottom h4 { font-size: 11.5px; line-height: 15px; letter-spacing: 1.4px; font-weight: 800; }
   .mapbox { width: 300px; flex: none; }
   .mapbox svg { display: block; width: 300px; height: 150px; margin-top: 5px; }
@@ -64,7 +64,7 @@
   .briefs { flex: 1; min-width: 0; }
   .cols { display: flex; gap: 14px; margin-top: 2px; }
   .cols ul { flex: 1; min-width: 0; list-style: none; }
-  .cols li { font-size: 12.6px; line-height: 14.6px; white-space: nowrap; overflow: hidden; }
+  .cols li { font-size: 13px; line-height: 15.2px; white-space: nowrap; overflow: hidden; }
   .cols li i { font-style: normal; font-weight: 800; color: var(--c); display: inline-block; width: 20px; }
   .cols li b { font-weight: 700; }
 
@@ -78,7 +78,7 @@
 </head>
 <body>
 
-<div class="top"><span class="l">THE WORLD IN ONE PAGE · DAILY NEWS SUMMARY</span><span>36 STORIES · 7 REGIONS · EVERY ONE DATED SATURDAY 21 NOVEMBER 2026</span></div>
+<div class="top"><span class="l">THE WORLD IN ONE PAGE · DAILY NEWS SUMMARY</span><span>36 STORIES · 7 REGIONS · 20 FIELDS · ALL DATED SATURDAY 21 NOVEMBER 2026</span></div>
 <div class="date" id="date">Saturday 21 November 2026</div>
 <div class="strap">Climate summit ends with no deal · Three missiles shot down over Riyadh · 128 nations to write AI-weapon rules</div>
 
@@ -110,8 +110,8 @@
       <div class="stamp">COP31: NO DEAL</div><div class="sub">Day 13 · vote on Sunday</div>
     </div>
     <div class="tag"><span class="n">1</span>ANTALYA, TÜRKIYE · CLIMATE</div>
-    <h2>Climate summit ends Saturday with no deal</h2>
-    <p>COP31 ran a full day past its Friday close. The hosts tabled a late text that again leaves out fossil fuels; nations are due to vote on Sunday. <span class="src">(AFP, RTÉ)</span></p>
+    <h2>Climate summit ends with no deal</h2>
+    <p>COP31 ran a day past its close; a late text again omits fossil fuels. A vote is due on Sunday. <span class="src">(AFP, RTÉ)</span></p>
   </div>
 
   <!-- 2 Riyadh -->
@@ -139,8 +139,8 @@
       <div class="stamp">RIYADH: 3 DOWNED</div><div class="sub">Houthi missiles · early Saturday</div>
     </div>
     <div class="tag"><span class="n">2</span>RIYADH, SAUDI ARABIA · WAR</div>
-    <h2>Saudi-led coalition downs three Houthi missiles</h2>
-    <p>Ballistic missiles fired from Yemen at the capital were intercepted early on Saturday, a third day of alerts. A drone was destroyed later. <span class="src">(Al Jazeera)</span></p>
+    <h2>Coalition downs three Houthi missiles</h2>
+    <p>Missiles fired from Yemen at the Saudi capital were intercepted early on Saturday. <span class="src">(Al Jazeera)</span></p>
   </div>
 
   <!-- 3 Geneva -->
@@ -172,8 +172,8 @@
       <div class="stamp">GENEVA: AI ARMS</div><div class="sub">128 nations · rules by 2028</div>
     </div>
     <div class="tag"><span class="n">3</span>GENEVA · ARMS CONTROL</div>
-    <h2>128 nations agree to write killer-robot rules</h2>
-    <p>States at the UN weapons convention will “elaborate” an instrument on autonomous arms by 2028. The US, Russia and Israel resisted. <span class="src">(Al Jazeera)</span></p>
+    <h2>128 nations to write killer-robot rules</h2>
+    <p>A UN weapons-convention instrument is due by 2028; the US, Russia and Israel resisted. <span class="src">(AJ)</span></p>
   </div>
 </div>
 
@@ -365,7 +365,7 @@
 <div class="check"><b>DATE CHECK</b>&nbsp; Left out as Friday 20 November’s news: the Russian missiles that fell in Poland, Denmark’s expulsion of a Russian attaché, Trump’s call for Nvidia to rehire Jensen Huang, the strike on Kryvyi Rih and the reported FBI database breach. The Bayelsa boat sank on Friday; its toll of 24 came on Saturday. Not known when drawn, so not shown as fact: the COP31 vote due on Sunday and the Las Vegas Grand Prix result.</div>
 
 <div class="foot">
-  <div><b>HOW TO READ IT</b>&nbsp; At a glance: the date and the 13 red stamps tell the day. Up close: 36 stories, each with its place, a key figure and a named source.</div>
+  <div><b>HOW TO READ IT</b>&nbsp; At a glance: the date and the 13 red stamps tell the day. Up close: 36 stories from 7 regions and 20 fields, each with its place, a key figure and a named source.</div>
   <div class="row"><span>Every story here happened, or was first reported, on Saturday 21 November 2026 (any time zone). Claims and counts are attributed to who made them.</span><span>AJ Al Jazeera · AA Anadolu · AN Africanews · original drawings</span></div>
 </div>
 
