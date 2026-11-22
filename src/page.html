@@ -32,7 +32,7 @@
   .tag { font-weight: 800; letter-spacing: 1px; color: var(--c); white-space: nowrap; overflow: hidden; }
   .n { display: inline-block; background: var(--c); color: #fff; border-radius: 50%; text-align: center; letter-spacing: 0;
        font-weight: 800; margin-right: 4px; }
-  .src { color: #6a6459; font-style: italic; }
+  .src { color: #57524a; font-style: italic; font-weight: 400; }
 
   /* Leads */
   .leads { height: 234px; margin-top: 8px; display: flex; gap: 14px; }
@@ -43,20 +43,20 @@
   .lead .tag { font-size: 10.5px; line-height: 16px; margin-top: 5px; }
   .lead .n { width: 15px; height: 15px; line-height: 15px; font-size: 10px; }
   .lead h2 { font-family: Georgia, serif; font-size: 26px; line-height: 28px; height: 56px; overflow: hidden; margin-top: 1px; }
-  .lead p { font-size: 13.5px; line-height: 17px; margin-top: 2px; color: #26231e; }
+  .lead p { font-size: 13.5px; line-height: 17px; margin-top: 2px; color: #14120e; font-weight: 600; }
 
   /* Tiles */
   .tiles { height: 318px; margin-top: 6px; display: grid; grid-template-columns: repeat(5, 1fr); grid-template-rows: 155px 155px; gap: 8px 10px; }
   .tile { min-width: 0; }
   .tile .pic { height: 84px; }
   .tile .stamp { font-size: 26px; line-height: 31px; padding: 0 7px; left: 5px; top: 5px; }
-  .tile .tag { font-size: 9.6px; line-height: 14px; margin-top: 4px; }
+  .tile .tag { font-size: 10.3px; line-height: 14px; margin-top: 4px; letter-spacing: .7px; }
   .tile .n { width: 13px; height: 13px; line-height: 13px; font-size: 8.5px; margin-right: 3px; }
   .tile h3 { font-family: Georgia, serif; font-size: 17px; line-height: 19px; height: 38px; overflow: hidden; }
-  .tile p { font-size: 12px; line-height: 15px; white-space: nowrap; overflow: hidden; color: #26231e; }
+  .tile p { font-size: 12px; line-height: 15px; white-space: nowrap; overflow: hidden; color: #14120e; font-weight: 600; }
 
   /* Map and briefs */
-  .bottom { height: 206px; margin-top: 8px; border-top: 2px solid #14120e; padding-top: 5px; display: flex; gap: 14px; }
+  .bottom { height: 202px; margin-top: 8px; border-top: 2px solid #14120e; padding-top: 5px; display: flex; gap: 14px; }
   .bottom h4 { font-size: 11.5px; line-height: 15px; letter-spacing: 1.4px; font-weight: 800; }
   .mapbox { width: 300px; flex: none; }
   .mapbox svg { display: block; width: 300px; height: 150px; margin-top: 5px; }
@@ -64,16 +64,17 @@
   .briefs { flex: 1; min-width: 0; }
   .cols { display: flex; gap: 14px; margin-top: 2px; }
   .cols ul { flex: 1; min-width: 0; list-style: none; }
-  .cols li { font-size: 13px; line-height: 15.2px; white-space: nowrap; overflow: hidden; }
+  .cols li { font-size: 13px; line-height: 15px; white-space: nowrap; overflow: hidden; font-weight: 600; }
   .cols li i { font-style: normal; font-weight: 800; color: var(--c); display: inline-block; width: 20px; }
-  .cols li b { font-weight: 700; }
+  .cols li b { font-weight: 800; }
 
   /* Date check and footer */
-  .check { height: 49px; margin-top: 5px; border: 2px solid #b3261e; background: #fdf3ef; padding: 2px 8px; font-size: 11.4px; line-height: 14.2px; overflow: hidden; }
+  .check { height: 52px; margin-top: 5px; border: 2px solid #b3261e; background: #fdf3ef; padding: 2px 8px; font-size: 12px; line-height: 14.8px; overflow: hidden; }
   .check b { color: #b3261e; letter-spacing: 1.2px; }
-  .foot { height: 28px; margin-top: 1px; font-size: 9.8px; line-height: 13.5px; color: #4b463d; white-space: nowrap; }
+  .foot { height: 29px; margin-top: 1px; font-size: 9.8px; line-height: 13px; color: #4b463d; white-space: nowrap; }
+  .foot .guide { font-size: 11.4px; line-height: 15px; font-weight: 600; color: #14120e; }
   .foot .row { display: flex; justify-content: space-between; }
-  .foot b { color: #14120e; letter-spacing: 1px; }
+  .foot b { color: #b3261e; letter-spacing: 1px; font-weight: 800; }
 </style>
 </head>
 <body>
@@ -189,7 +190,7 @@
       <path d="M70 48 q-5 -12 3 -19 q2 9 8 12 q-1 6 -11 7z" fill="#f7a21b"/><path d="M132 42 q-4 -9 3 -14 q2 6 7 9 q-2 4 -10 5z" fill="#f7a21b"/>
       <path d="M58 65 q8 -4 16 0 t16 0 t16 0 M120 60 q8 -4 16 0 t16 0 t16 0" stroke="#fff" stroke-width="1.6" fill="none"/>
     </svg><div class="stamp">2 TANKERS</div></div>
-    <div class="tag"><span class="n">4</span>HORMUZ STRAIT · SHIPPING</div>
+    <div class="tag"><span class="n">4</span>HORMUZ · SHIPPING</div>
     <h3>Two tankers struck off Oman’s coast</h3>
     <p>No casualties reported. <span class="src">UKMTO</span></p>
   </div>
@@ -215,7 +216,7 @@
         <text x="44" y="67">PERU · 00:09 UTC</text><text x="136" y="67">TIMOR SEA · 09:42</text>
       </g>
     </svg><div class="stamp">6.7 + 6.8</div></div>
-    <div class="tag"><span class="n">6</span>PERU · TIMOR-LESTE · QUAKES</div>
+    <div class="tag"><span class="n">6</span>PERU · TIMOR SEA · QUAKES</div>
     <h3>Two strong quakes ten hours apart</h3>
     <p>Both over 100 km deep. <span class="src">USGS</span></p>
   </div>
@@ -335,7 +336,7 @@
         <li style="--c:var(--me)"><i>14</i><b>Hormuz</b> Iran says it downed two US drones <span class="src">(IRGC)</span></li>
         <li style="--c:var(--me)"><i>15</i><b>Bahrain</b> Iranian strike sets a plant on fire <span class="src">(AJ)</span></li>
         <li style="--c:var(--me)"><i>16</i><b>Tehran</b> Araghchi sets terms to reopen Hormuz <span class="src">(AJ)</span></li>
-        <li style="--c:var(--am)"><i>17</i><b>Washington</b> Trump wants “permanent” Iran deal <span class="src">(AA)</span></li>
+        <li style="--c:var(--am)"><i>17</i><b>Washington</b> Trump: “permanent” Iran deal <span class="src">(AA)</span></li>
         <li style="--c:var(--me)"><i>18</i><b>Gaza</b> Civil defence: Israeli fire kills four <span class="src">(AFP)</span></li>
         <li style="--c:var(--me)"><i>19</i><b>Beirut</b> Aoun: Israel must quit “every inch” <span class="src">(AJ)</span></li>
         <li style="--c:var(--me)"><i>20</i><b>Basra</b> Power-plant fire kills four <span class="src">(Reuters)</span></li>
@@ -365,7 +366,7 @@
 <div class="check"><b>DATE CHECK</b>&nbsp; Left out as Friday 20 November’s news: the Russian missiles that fell in Poland, Denmark’s expulsion of a Russian attaché, Trump’s call for Nvidia to rehire Jensen Huang, the strike on Kryvyi Rih and the reported FBI database breach. The Bayelsa boat sank on Friday; its toll of 24 came on Saturday. Not known when drawn, so not shown as fact: the COP31 vote due on Sunday and the Las Vegas Grand Prix result.</div>
 
 <div class="foot">
-  <div><b>HOW TO READ IT</b>&nbsp; At a glance: the date and the 13 red stamps tell the day. Up close: 36 stories from 7 regions and 20 fields, each with its place, a key figure and a named source.</div>
+  <div class="guide"><b>HOW TO READ IT</b>&nbsp; At a glance: the date and the 13 red stamps tell the day. Up close: 36 stories from 7 regions and 20 fields, each with its place, a key figure and a named source.</div>
   <div class="row"><span>Every story here happened, or was first reported, on Saturday 21 November 2026 (any time zone). Claims and counts are attributed to who made them.</span><span>AJ Al Jazeera · AA Anadolu · AN Africanews · original drawings</span></div>
 </div>
 
